@@ -5,10 +5,8 @@ $params = array_merge(
     require __DIR__ . '/params.php',
     require __DIR__ . '/params-local.php'
 );
-
 return [
     'id' => 'app-backend',
-    'defaultRoute'=>'index',//设置项要默认的控制器就OK
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
@@ -38,12 +36,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        //  /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
+        //  */
     ],
     'params' => $params,
 ];
