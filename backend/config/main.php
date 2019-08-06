@@ -8,6 +8,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'defaultRoute'=>'index',//设置项要默认的控制器就OK
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
