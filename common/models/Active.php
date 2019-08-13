@@ -14,6 +14,7 @@ use yii\db\ActiveRecord;
  * @property int $time_create 创建时间
  * @property int $time_update 修改时间
  * @property int $status 状态：0待上线 、1已上线、2已下线
+ * @property int $type_id 活动类型：1秒杀 、2团购、3优惠
  */
 class Active extends ActiveRecord
 {
@@ -25,6 +26,9 @@ class Active extends ActiveRecord
         return 'active';
     }
 
+  /*  public function getGoods(){
+       // return $this->hasOne(Goods::className(),['active_id'=>'id']);
+    }*/
     /**
      * {@inheritdoc}
      */
@@ -32,7 +36,7 @@ class Active extends ActiveRecord
     {
         return [
             [['title'], 'required'],
-            [['time_begin', 'time_end', 'time_create', 'time_update', 'status'], 'integer'],
+            [['time_begin', 'time_end', 'time_create', 'time_update', 'status','type_id'], 'integer'],
             [['title'], 'string', 'max' => 100],
         ];
     }
@@ -50,6 +54,7 @@ class Active extends ActiveRecord
             'time_create' => '创建时间',
             'time_update' => '修改时间',
             'status' => '状态：0待上线 、1已上线、2已下线',
+            'type_id' => '活动类型：1秒杀 、2团购、3优惠',
         ];
     }
 

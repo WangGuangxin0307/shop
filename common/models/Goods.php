@@ -42,7 +42,10 @@ class Goods extends \yii\db\ActiveRecord
             [['img'], 'string', 'max' => 255],
         ];
     }
-
+    public function getActive()
+    {
+        return $this->hasOne(Active::className(), ['id' => 'active_id']);
+    }
     /**
      * {@inheritdoc}
      */
