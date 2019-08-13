@@ -12,6 +12,7 @@ namespace backend\controllers;
 
 use common\models\Active;
 use common\models\Order;
+use swoole_client;
 use Yii;
 use common\models\Goods;
 use yii\web\Controller;
@@ -114,8 +115,14 @@ class SeckillController extends Controller
         if($res){
 
             $goodsKey = 'goods:id:'.$goodsId;
-            $redis->select(4);
-            $redis->setex($order_number,5*60,$goodsKey);
+//            $redis->select(4);
+//            $redis->setex($order_number,5*60,$goodsKey);
+            $client = new \swoole_client(SWOOLE_SOCK_TCP);
+            if (!$client->connect('154.8.236.122',9500)){
+                echo '连接失败';
+                exit();
+            }
+            $res = $client->send($goodsKey);
             if ($res){
                 //将缓存中的库存减1
                 $redis->select(2);
