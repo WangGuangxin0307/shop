@@ -1348,12 +1348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72"
+                "reference": "6c3e9f1c8315a93bcebdd5f21630c945439968e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
-                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/6c3e9f1c8315a93bcebdd5f21630c945439968e9",
+                "reference": "6c3e9f1c8315a93bcebdd5f21630c945439968e9",
                 "shasum": ""
             },
             "require": {
@@ -1388,7 +1388,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2019-04-07T13:18:21+00:00"
+            "time": "2019-08-05T15:28:34+00:00"
         },
         {
             "name": "opis/closure",
@@ -2960,12 +2960,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "24377ab74782e1f4dde5326b94b305fcdba4ef8e"
+                "reference": "4f322b9d4a7a0cb26f06e91b840843d1bee526a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/24377ab74782e1f4dde5326b94b305fcdba4ef8e",
-                "reference": "24377ab74782e1f4dde5326b94b305fcdba4ef8e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/4f322b9d4a7a0cb26f06e91b840843d1bee526a0",
+                "reference": "4f322b9d4a7a0cb26f06e91b840843d1bee526a0",
                 "shasum": ""
             },
             "require": {
@@ -3027,7 +3027,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-03T22:33:03+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -3035,12 +3035,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "999bbb5c657e3378fd1723b3c5b42be972f83cba"
+                "reference": "b3f7c3a01710d2c25eee4826a9e314a126677cc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/999bbb5c657e3378fd1723b3c5b42be972f83cba",
-                "reference": "999bbb5c657e3378fd1723b3c5b42be972f83cba",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/b3f7c3a01710d2c25eee4826a9e314a126677cc4",
+                "reference": "b3f7c3a01710d2c25eee4826a9e314a126677cc4",
                 "shasum": ""
             },
             "require": {
@@ -3080,7 +3080,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-03T21:59:26+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -3088,12 +3088,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "8742c0a8f9180f6e90589626ca85c4bd8fcd8e1b"
+                "reference": "b366025a71beac197f464f947a5e0b427bb8c868"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/8742c0a8f9180f6e90589626ca85c4bd8fcd8e1b",
-                "reference": "8742c0a8f9180f6e90589626ca85c4bd8fcd8e1b",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/b366025a71beac197f464f947a5e0b427bb8c868",
+                "reference": "b366025a71beac197f464f947a5e0b427bb8c868",
                 "shasum": ""
             },
             "require": {
@@ -3141,7 +3141,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-03T21:59:26+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -3149,12 +3149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "262904f8c16c678011c524c1e21722d31e08bf4a"
+                "reference": "f77a8c216e6da734acb83e2fb5f3738e4020aae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/262904f8c16c678011c524c1e21722d31e08bf4a",
-                "reference": "262904f8c16c678011c524c1e21722d31e08bf4a",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/f77a8c216e6da734acb83e2fb5f3738e4020aae3",
+                "reference": "f77a8c216e6da734acb83e2fb5f3738e4020aae3",
                 "shasum": ""
             },
             "require": {
@@ -3211,7 +3211,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-05T14:24:36+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -3277,12 +3277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "17558b0de7c4816bd0ee1b729c36f780ab02d49b"
+                "reference": "e535ef9c48e756c1bae9813a09016445bdd3bc6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/17558b0de7c4816bd0ee1b729c36f780ab02d49b",
-                "reference": "17558b0de7c4816bd0ee1b729c36f780ab02d49b",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/e535ef9c48e756c1bae9813a09016445bdd3bc6f",
+                "reference": "e535ef9c48e756c1bae9813a09016445bdd3bc6f",
                 "shasum": ""
             },
             "require": {
@@ -3318,7 +3318,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-05T14:07:36+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3500,12 +3500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "260ee7d1f44888e50b8670eccf804d21852b5139"
+                "reference": "c0c63203e16d56238597a0b75f3ac60d3a6b6148"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/260ee7d1f44888e50b8670eccf804d21852b5139",
-                "reference": "260ee7d1f44888e50b8670eccf804d21852b5139",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c0c63203e16d56238597a0b75f3ac60d3a6b6148",
+                "reference": "c0c63203e16d56238597a0b75f3ac60d3a6b6148",
                 "shasum": ""
             },
             "require": {
@@ -3551,7 +3551,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-05T09:41:41+00:00"
         },
         {
             "name": "theseer/tokenizer",
